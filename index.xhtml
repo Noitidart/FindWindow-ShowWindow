@@ -9,9 +9,13 @@
 			var wintypesInit = function() {	
 				// BASIC TYPES (ones that arent equal to something predefined by me)
 				this.BOOL = ctypes.bool;
-			  this.LPCTSTR = ctypes.jschar.ptr;
+				this.WCHAR = ctypes.jschar;
 				this.HWND = ctypes.voidptr_t;
 				this.INT = ctypes.int;
+				
+				// ADVANCED TYPES
+				this.LPTSTR = new ctypes.PointerType(this.WCHAR);
+				this.LPCTSTR = this.LPTSTR;
 			  
 				// CONSTANTS
 				this.SW_HIDE = 0;
