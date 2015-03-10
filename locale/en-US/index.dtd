@@ -1,0 +1,6 @@
+<!ENTITY index.not-found 'no window found with specified lpClassName/lpWindowName'>
+<!ENTITY index.shown 'window successfully shown'>
+<!ENTITY index.shown-fail 'failed to show window, it may already be visible'>
+<!ENTITY index.hid 'window successfully invisd'>
+<!ENTITY index.hid-fail 'failed to invis, it may already be invis'>
+<!ENTITY index.unknown 'Unknown parameter passed'>
